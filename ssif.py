@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
-from typing import Optional
 import typer
-import os, sys
+import os
 
 def main(string: str, directory: str, blacklist: str = typer.Option("", help='Set directory or files that the program don\'t search string. You can put more values separated by space character (Example --> "log main.py .git")'), 
          verbose: bool = typer.Option(False, "--verbose", "-v", help="Show output in verbose mode")):
