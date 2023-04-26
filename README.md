@@ -57,10 +57,10 @@ ssif --blacklist "README.md .git" "local" "./"
 
 ## Install
 ``` bash
-./install.sh
+sudo ./install.sh
 ```
 
 ## Uninstall
 ``` bash
-./remove.sh
+sudo ./remove.sh
 ```
